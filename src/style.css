@@ -1,3 +1,23 @@
-h1, h2 {
-font-family: Lato;
+body {
+    margin: 0;
+}
+h1, h2, p {
+font-family: Oswald;
+}
+
+h1 {
+    font-size: 210px;
+}
+
+header {
+    height: 570px;
+    background-image: linear-gradient(90deg, #F6FA2A, #E2C113);
+}
+
+.img-container {
+    background-image: url("../assets/tarantino-xlarge.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 496px;
+    height: 626px;
 }
